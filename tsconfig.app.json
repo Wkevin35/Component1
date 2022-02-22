@@ -9,7 +9,11 @@
     "src/main.ts",
     "src/polyfills.ts"
   ],
+  "exclude": [
+    "./node_modules/component2/**/*spec.ts"
+  ],
   "include": [
-    "src/**/*.d.ts"
+    "src/**/*.d.ts",
+    "./node_modules/component2/**/*.ts",
   ]
 }
